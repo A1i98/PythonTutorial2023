@@ -46,3 +46,10 @@
 # print(harsal*seneAli)
 
 # تمرین برای هفته بعد حجم و مساحت استوانه
+pi = 3.14
+
+# def volume(radius, height):
+volume = pi * radius ** 2 * height
+
+# def area(radius, height):
+area = 2 * pi * radius * (radius + height)
