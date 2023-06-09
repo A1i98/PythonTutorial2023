@@ -9,4 +9,5 @@
 >| 3-4 | 1402.3.4 | String - Program Flow Control
 >| 5 | 1402.3.11 | More Program Flow Control - Lists
 >| 6 | 1402.3.12 | More Lists - Tuple
->| 7 | 1402.3.18 | Functions
+>| 7 | 1402.3.18 | Functions 
+>| 8 | 1402.3.19 | Dictionaries
