@@ -1,0 +1,50 @@
+class Account:
+    """
+    کلاس Account برای مدیریت حساب بانکی
+
+    ویژگی‌ها:
+    balance (float): موجودی حساب
+
+    توابع:
+    deposit(amount: float) -> None: افزایش موجودی حساب
+    withdraw(amount: float) -> None: کم کردن موجودی حساب
+    get_balance() -> float: نمایش موجودی فعلی حساب
+    """
+
+    def __init__(self, balance: float = 0.0):
+        """
+        سازنده کلاس Account
+
+        پارامترها:
+        balance (float): موجودی اولیه حساب (اختیاری، پیش‌فرض: 0.0)
+        """
+        self.balance = balance
+
+    def deposit(self, amount: float) -> None:
+        """
+        افزایش موجودی حساب
+
+        پارامترها:
+        amount (float): مقداری که به حساب افزوده می‌شود
+        """
+        self.balance += amount
+
+    def withdraw(self, amount: float) -> None:
+        """
+        کم کردن موجودی حساب
+
+        پارامترها:
+        amount (float): مقداری که از حساب کم می‌شود
+        """
+        if amount > self.balance:
+            raise ValueError("موجودی کافی نیست.")
+        self.balance -= amount
+
+    def get_balance(self) -> float:
+        """
+        نمایش موجودی فعلی حساب
+
+        بازگردانی:
+        float: موجودی فعلی حساب
+        """
+        return self.balance
