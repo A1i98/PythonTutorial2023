@@ -12,3 +12,5 @@
 >| 7 | 1402.3.18 | Functions 
 >| 8 | 1402.3.19 | Dictionaries
 >| 9 | 1402.3.25 | Set - I/O - pickle - shelve
+>| 10 | 1402.3.26 | Module - import - oop - class
+
