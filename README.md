@@ -14,6 +14,6 @@
 >| 9 | 1402.3.25 | Set - I/O - pickle - shelve
 >| 10 | 1402.3.26 | Module - import - oop - class
 >| 11-12 | 1402.4.29 | tkinter basic Widgets 
->| 13-14 | 1402.4.30 | tkinter basic 
+>| 13-14 | 1402.4.30 | tkinter advances - SQLlite
 
 
